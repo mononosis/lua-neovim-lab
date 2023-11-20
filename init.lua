@@ -1,5 +1,6 @@
 local lspconfig = require('lspconfig')
 -- Configure lua-lsp
+vim.cmd('colorscheme desert')     -- Use a colorscheme that emphasizes blue tones
 lspconfig.lua_ls.setup {
     cmd = { "lua-language-server" },
     settings = {
