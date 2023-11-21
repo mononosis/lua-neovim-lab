@@ -1,4 +1,5 @@
 local lspconfig = require('lspconfig')
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
 -- Configure lua-lsp
 lspconfig.lua_ls.setup {
     cmd = { "lua-language-server" },
@@ -20,6 +21,7 @@ lspconfig.lua_ls.setup {
             },
         },
     },
+    capabilities = capabilities
 }
 
 require('change-color')
