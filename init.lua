@@ -22,12 +22,5 @@ lspconfig.lua_ls.setup {
     },
 }
 
--- Add this at the beginning of your init.lua
-local current_dir = '/home/nixos/Lab/LuaLab/lua-neovim-lab'
-package.path = package.path .. ';' .. current_dir .. '/?.lua'
-
-vim.cmd("colorscheme blue")
-
--- Rest of your code...
---require('change-color')
+require('change-color')
 
