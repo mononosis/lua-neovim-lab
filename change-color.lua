@@ -1,1 +1,1 @@
-vim.cmd("colorscheme seoul256")
+vim.cmd("colorscheme material-theme")
