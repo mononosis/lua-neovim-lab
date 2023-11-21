@@ -1,1 +1,1 @@
-vim.cmd("colorscheme blue")
+vim.cmd("colorscheme silverhand")
