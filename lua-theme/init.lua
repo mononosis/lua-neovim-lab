@@ -1,6 +1,6 @@
 local M = {}
 function M.setup()
-  vim.cmd("colorscheme material-theme")
+  vim.cmd("colorscheme ayu")
 end
 
 return M
