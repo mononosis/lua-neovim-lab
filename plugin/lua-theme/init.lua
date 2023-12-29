@@ -1,6 +1,6 @@
 local M = {}
 function M.setup()
-  vim.cmd("colorscheme ayu")
+  vim.cmd("colorscheme cyberpunk")
 end
 
 return M
