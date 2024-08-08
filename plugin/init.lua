@@ -1,6 +1,0 @@
-local utils = require("nvim-utils-config")
-local current_dir = utils.this_file_path()
-utils.set_packages_paths(current_dir)
-require('lua-theme').setup()
-require('lua-options').setup()
-require('lua-editor').setup()
